@@ -1,0 +1,66 @@
+혹시나 햄버거 x 하는거 하다가 날아갈까바 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>춤바람 정기공연</title>
+    <link rel="stylesheet" href="cbmainpage.css">
+</head>
+<body>
+    <nav class = "header">
+        <div class="header_logo">
+            <a href="#"><img src="./춤바람 로고.png" alt="로고" width="70px"></a>
+        </div>
+        <div class="header_hamburger">
+            <a href="#"><img src="./햄버거버튼.png" alt="햄버거버튼" width="40px"></a>
+        </div>
+    </nav>
+</body>
+</html>
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+
+@font-face {
+    font-family: 'JeonjuCraftGoR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/JeonjuCraftGoR.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin : 0px;
+}
+
+a {
+    text-decoration:none;  /* 텍스트 링크 밑줄 없애기 */ 
+  }
+
+.header {
+    font-family: 'JeonjuCraftGoR';
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#000000 ;
+    border-bottom: 1px solid #999999;
+    opacity: 0.5;
+    position: sticky;
+    text-align: center;
+}
+
+.header_logo img{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    margin : 12px 0px;
+}
+
+.header_hamburger img{
+    position : absolute;
+    right : 5px;
+    top : 14px;
+}
