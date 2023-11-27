@@ -6,7 +6,6 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 @font-face {
     font-family: 'GangwonEduPowerExtraBoldA';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
@@ -34,14 +33,11 @@ body {
 
 a {
     text-decoration: none;
-    color :rgb(0, 0, 0)
     /* 텍스트 링크 밑줄 없애기 */
 }
 
 html {
-    background: #fffff0;
-    scroll-behavior: smooth;
-    a:link { color: rgb(0, 0, 0); text-decoration: none;}
+    background: #e8e8de;
 }
 
 .header {
@@ -151,7 +147,14 @@ input[id="menuicon"]:checked+label {
     cursor : pointer;
 }
 
+.back img{
+    position: fixed;
+    left : 10px;
+    top : 12px; 
+}
+
 /* 여기까지가 헤더 밑부턴 메인 */
+
 
 .white {
     display: flex;
@@ -160,197 +163,57 @@ input[id="menuicon"]:checked+label {
     height: 68px;
 }
 
-.poster{
-    display: flex;
-    width: 100%;
-}
-
-.gobutton1{
-    display: flex;
-    width: 100%;
-}
-
-.inviteboard {
+.youtube {
     width: 95%;
-    height: 500px;
+    height: 250px;
     display: flex;
     justify-content: center;
-    background: #fffff0;
-    border-radius: 30px;
+    background: #e8e8de;
+    border-radius: 0px;
     text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
+    margin : auto;
+    border : 4px solid #CAC4A9;
 }
 
-
-.invite h1 {
-    font-family: 'Pretendard-Regular';
-    font-size: 16px;
+.youtube iframe{
+    padding : 10px;
 }
 
-.invite h3 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.informationboard {
+.teamname{
     width: 95%;
-    height: 575px;
-    display: flex;
-    justify-content: center;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-}
-
-.information h1{
-    font-family: 'Pretendard-Regular';
-    font-size: 16px;
-}
-
-.information h3{
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.orderboard {
-    width: 95%;
-    height: 1150px;
-    display: flex;
-    justify-content: center;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-}
-
-.order h1 {
-    font-family: 'Pretendard-Regular';
-    font-size: 17px;
-}
-
-.order h3 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.prizeboard {
-    width: 95%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-}
-
-.prize h1 {
-    font-family: 'Pretendard-Regular';
-    font-size: 17px;
-}
-
-.prize h3 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.mapboard {
-    width: 95%;
-    height: auto;
+    height: 900px;
     display: flex;
     justify-content: flex-start;
-    background: #fffff0;
+    background: #e8e8de;
     border-radius: 30px;
     text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
+    margin : auto;
+    border : 4px solid #CAC4A9;
     margin-top: 10px;
     flex-direction: column;
 }
 
-.map h1 {
-    font-family: 'Pretendard-Regular';
-    font-size: 17px;
-}
-
-.map h3 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.map img {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin: 12px 0px;
-    width: 100%;
-}
-
-.kakao {
-    width: 95%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-    flex-direction: column;
-}
-
-.eventboard {
-    width: 95%;
-    height: 725px;
-    display: flex;
-    justify-content: center;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-}
-
-.event h1 {
-    font-family: 'Pretendard-Regular';
-    font-size: 17px;
-}
-
-.event h3 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 30px;
-}
-
-.event h2 {
-    font-family: 'Cafe24Ssurround';
-    font-size: 24px;
-}
-
-.event hr{
+.teamname hr{
     width: 80%;
 }
 
-.instaboard{
-    width: 95%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
-    background: #fffff0;
-    border-radius: 30px;
-    text-align: center;
-    margin: auto;
-    border: 4px solid #CAC4A9;
-    margin-top: 10px;
-    flex-direction: column;
+.teamname h1{
+    align-items: center;
+    margin : 0px;
+    font-family: 'Cafe24Ssurround';
+    font-size: 30px;
 }
+
+.teamname h3{
+    align-items: center;
+    font-family: 'Pretendard-Regular';
+    font-size: 20px;
+}
+
+.teamname iframe{
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+

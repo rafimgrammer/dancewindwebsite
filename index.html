@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>춤바람 정기공연</title>
     <link rel="stylesheet" href="cbmainpage.css">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-25XZ50BG0B"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-25XZ50BG0B');
+    </script>
 </head>
 
 <body>
     <nav class="header">
         <div class="header_logo">
-            <a href="#"><img src="./춤바람 로고.png" alt="로고" width="70px"></a>
+            <a href="./index.html"><img src="./춤바람 로고.png" alt="로고" width="70px"></a>
         </div>
         <div class="header_menu">
             <input type="checkbox" id="menuicon">
@@ -21,30 +30,45 @@
                 <span></span>
             </label>
             <div class="sidebar">
-
+                <a href="#inviteboard">
+                    <h1>초대의 말</h1>
+                </a>
+                <a href="#informationboard">
+                    <h1>공연 정보</h1>
+                </a>
+                <a href="#orderboard">
+                    <h1>공연 순서</h1>
+                </a>
+                <a href="#prizeboard">
+                    <h1>경품 추첨</h1>
+                </a>
+                <a href="#mapboard">
+                    <h1>오시는 길</h1>
+                </a>
+                <a href="#eventboard">
+                    <h1>카카오톡 초대장 이벤트</h1>
+                </a>
             </div>
         </div>
-
     </nav>
 
     <nav class="main">
 
-        <div class="white">
-        </div>
-
         <div class="poster">
-            <img src="./포스터대신에넣어놀거.png" alt="춤바람 정기공연 포스터" width="100%">
+            <img src="./포스터최종.png" alt="춤바람 정기공연 포스터" width="100%">
         </div>
 
         <div class="gobutton1">
             <a href="https://naver.me/5QuicIJr"><img src="./정기공연버튼1.png" alt="정기공연 신청폼 바로가기1" width="100%"></a>
         </div>
 
-        <div class="inviteboard">
+        <div class="inviteboard" id="inviteboard">
             <div class="invite">
-                <h3>초대의 말<hr></h3>
+                <h3>초대의 말
+                    <hr>
+                </h3>
                 <h1>한림대학교 학우분들,<br><br></h1>
-                <h1>저희 춤바람이 올한해 학우분들이<br></h1>
+                <h1>저희 춤바람이 올 한 해 학우분들이<br></h1>
                 <h1>보내주신 관심과 성원에 힘업어<br></h1>
                 <h1>일송 아트홀에서 제 24회 정기공연을<br></h1>
                 <h1>진행하게 되었습니다.<br><br></h1>
@@ -55,6 +79,153 @@
             </div>
         </div>
 
+        <div class="informationboard" id="informationboard">
+            <div class="information">
+                <h3>공연 정보
+                    <hr>
+                </h3>
+                <h1>Q. 언제, 어디서 공연을 하나요?<br><br></h1>
+                <h1>A. 11월 28일 화요일 오후 7시에<br>일송아트홀에서 진행합니다!<br><br>
+                    <hr>
+                </h1>
+                <h1><br>Q. 입장료가 따로 존재하나요?<br><br></h1>
+                <h1>A. 아니요, 입장료를 받지 않고<br>무료로 진행하고 있습니다!<br><br>
+                    <hr>
+                </h1>
+                <h1><br>Q. 무대 후에 경품 추첨을 하나요?<br><br></h1>
+                <h1>A. 네! 경품 추첨을 위하여 여러 상품을<br>준비해 두었으니 많은 참여 부탁드립니다!<br><br></h1>
+            </div>
+        </div>
+
+        <div class="orderboard" id="orderboard">
+            <div class="order">
+                <h3>공연 순서<br>
+                    <h1>(누르면 곡명과 팀원명이 나옵니다!)</h1><br>
+                    <hr><br>
+                </h3>
+                <a href="./cheers.html">
+                    <h1>춤바람을 위하여 [Cheers]<br><br></h1>
+                </a>
+                <a href="./Typagirl.html">
+                    <h1>아직 샌애기 [Typa girl 외 1곡]<br><br></h1>
+                </a>
+                <a
+                    href="https://www.instagram.com/brok2r_official/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">
+                    <h1>Guest - Broker 공연<br><br></h1>
+                </a>
+                <a href="./Dangerouswoman.html">
+                    <h1>20학번 이상 관람가<br>[Dangerous woman 외 2곡]<br><br></h1>
+                </a>
+                <a href="./Dkwtd.html">
+                    <h1>주호왓투두<br>[Don't know what to do]<br><br></h1>
+                </a>
+                <a
+                    href="https://www.instagram.com/handyz._.0826/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">
+                    <h1>Guest - Handy'z 공연<br><br></h1>
+                </a>
+                <a href="./woman.html">
+                    <h1>유지수 : 주호야 누나가 말 좀 놓을게<br>[Woman 외 1곡]<br><br></h1>
+                </a>
+                <h1>Special - SUNJUHO 공연<br><br></h1>
+                <a href="./shhh.html">
+                    <h1>춤바람 앞에 다 [쉿]<br><br></h1>
+                </a>
+                <a href="./tenminutes.html">
+                    <h1>S.O.S [10 Minutes]<br><br></h1>
+                </a>
+                <a href="./Baggyjeans.html">
+                    <h1>진짜 하고 싶었던 말을 할게...<br>[Baggy jeans]<br><br></h1>
+                </a>
+                <a
+                    href="https://www.instagram.com/street_dance.05/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">
+                    <h1>Guest - Street 공연<br><br></h1>
+                </a>
+                <a href="./Youandme.html">
+                    <h1>블림핑크 [You & me 외 1곡]<br><br></h1>
+                </a>
+                <a href="./Bang.html">
+                    <h1>문승환 [Bang! 외 1곡]<br><br></h1>
+                </a>
+                <a href="#prizeboard"></a>
+                <h1>경품추첨<br><br></h1>
+            </div>
+        </div>
+
+        <div class="prizeboard" id="prizeboard">
+            <div class="prize">
+                <h3>경품추첨
+                    <hr>
+                </h3>
+                <h1>1등 상품</h1>
+                <h1>에어팟 3세대 (1명)<br><br><br></h1>
+                <h1>2등 상품</h1>
+                <h1>배달의 민족 5만원 상품권 (1명)<br><br><br></h1>
+                <h1>3등 상품</h1>
+                <h1>배달의 민족 2만원 상품권 (1명)</h1>
+            </div>
+        </div>
+
+        <div class="mapboard" id="mapboard">
+            <div class="map">
+                <h3>오시는 길</h3>
+                <h1>한림대학교 일송아트홀<br><br>
+                    <hr>
+                </h1>
+                <img src="./일송아트홀지도.png" alt="일송아트홀지도">
+                <h1>
+                    <hr>
+                </h1>
+            </div>
+        </div>
+
+        <div class="kakao" id="kakao">
+            <script src="https://t1.kakaocdn.net/kakao_js_sdk/2.5.0/kakao.min.js"
+                integrity="sha384-kYPsUbBPlktXsY6/oNHSUDZoTX6+YI51f63jCPEIPFP09ttByAdxd2mEjKuhdqn4"
+                crossorigin="anonymous"></script>
+            <script>
+                Kakao.init('6deacf18f0b3a13014f321a7676ee1d4'); // 사용하려는 앱의 JavaScript 키 입력
+            </script>
+
+            <a id="kakaotalk-sharing-btn" href="javascript:shareMessage()">
+                <img src="./카카오톡초대장.png" alt="카카오톡 공유 보내기 버튼" width="100%">
+            </a>
+
+            <script>
+                function shareMessage() {
+                    Kakao.Share.sendCustom({
+                        templateId: 100672,
+                    });
+                }
+            </script>
+        </div>
+
+        <div class="eventboard" id="eventboard">
+            <div class="event">
+                <h3>초대장 인증 이벤트
+                    <hr>
+                </h3>
+                <h1>위 초대장 보내기 버튼을 누르신 다음</h1>
+                <h1>친구/지인에게 초대장을 보내신 후</h1>
+                <h1>인증을 해주신다면 추첨을 통하여</h1>
+                <h1>상품을 드립니다!<br><br>
+                    <hr>
+                </h1>
+                <h2>참여 방법
+                    <hr><br>
+                </h2>
+                <h1>1. 위 초대장 보내기 버튼을 누른다.<br><br></h1>
+                <h1>2. 친구 / 지인 에게 초대장을 공유한다.<br><br></h1>
+                <h1>3. 친구 / 지인 에게 초대장을 공유한 화면을<br>캡쳐해 춤바람 인스타그램 DM으로 사진을 보낸다.<br><br></h1>
+                <h1>4. 추첨을 통해 4명에게 배달의 민족<br>5천원권을 드립니다!<br><br></h1>
+                <h1>춤바람 인스타그램 : @hallym_dancewind</h1>
+            </div>
+        </div>
+
+        <div class="instaboard">
+            <a
+                href="https://www.instagram.com/hallym_dancewind/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="><img
+                    src="./인스타바로가기.png" alt="춤바람 인스타그램 바로가기" width="100%"></a>
+        </div>
     </nav>
 </body>
 
